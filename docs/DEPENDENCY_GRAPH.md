@@ -14,7 +14,7 @@ flowchart LR
   A2["root:other<br/>1 files"]
   A3["root:tooling<br/>6 files"]
   A4["web:announcements<br/>2 files"]
-  A5["web:api<br/>48 files"]
+  A5["web:api<br/>49 files"]
   A6["web:app<br/>76 files"]
   A7["web:auth<br/>11 files"]
   A8["web:bootstrap.mjs<br/>1 files"]
@@ -78,7 +78,7 @@ flowchart LR
 | `root:other` | 1 |
 | `root:tooling` | 6 |
 | `web:announcements` | 2 |
-| `web:api` | 48 |
+| `web:api` | 49 |
 | `web:app` | 76 |
 | `web:auth` | 11 |
 | `web:bootstrap.mjs` | 1 |
@@ -109,7 +109,7 @@ flowchart LR
 | `web:app` | `web:db` | 36 |
 | `web:app` | `web:app` | 28 |
 | `web:ui` | `web:ui` | 11 |
-| `web:api` | `web:api` | 9 |
+| `web:api` | `web:api` | 10 |
 | `web:api` | `web:imports` | 8 |
 | `web:auth` | `web:auth` | 8 |
 | `web:api` | `web:callings` | 7 |
@@ -160,8 +160,8 @@ flowchart LR
 | `web:api` | `next` | 38 |
 | `web:app` | `react` | 16 |
 | `root:tooling` | `Node.js` | 12 |
+| `web:api` | `vitest` | 10 |
 | `web:ui` | `react` | 10 |
-| `web:api` | `vitest` | 9 |
 | `web:auth` | `next-auth` | 6 |
 | `web:app` | `vitest` | 4 |
 | `web:auth` | `vitest` | 4 |
@@ -274,6 +274,7 @@ flowchart LR
 | `apps/web/app/api/w/[wardId]/members/[memberId]/notes/route.ts` | `web:api` | 4 | 1 |
 | `apps/web/app/api/w/[wardId]/members/[memberId]/route.ts` | `web:api` | 4 | 1 |
 | `apps/web/app/api/w/[wardId]/members/route.ts` | `web:api` | 4 | 1 |
+| `apps/web/app/api/w/[wardId]/members/route.vitest.ts` | `web:api` | 1 | 1 |
 | `apps/web/app/api/w/[wardId]/notifications/diagnostics/route.ts` | `web:api` | 5 | 1 |
 | `apps/web/app/api/w/[wardId]/portal/route.ts` | `web:api` | 4 | 2 |
 | `apps/web/app/api/w/[wardId]/users/[userId]/roles/[roleId]/route.ts` | `web:api` | 4 | 1 |
